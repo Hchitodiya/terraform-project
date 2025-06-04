@@ -14,18 +14,18 @@ locals {
 
 variable "vpc_id" {
   description = "Existing VPC ID"
-  default     = "vpc-0bd462f56190fd83d"
+  default     = "vpc-0356a66c729697af8"
 }
 
 variable "private_subnets" {
   description = "List of existing private subnet IDs"
   type        = list(string)
-  default     = ["subnet-07d1d8ccd944f52b9", "subnet-0009be1ce100c2462"]
+  default     = ["subnet-05b56e3b0ed7a58a6", "subnet-0dfe20c15d53b733c"]
 }
 
 variable "public_subnets" {
   description = "List of existing public subnet IDs"
   type        = list(string)
-  default     = ["subnet-0a833493af16fefd4", "subnet-02a4c4eea98945f0e"]
+  default     = ["subnet-0a9461303bd77bc4b", "subnet-0eb9782bf928457a3"]
 }
 
